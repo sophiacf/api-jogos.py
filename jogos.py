@@ -4,10 +4,10 @@ import os
 app = Flask(__name__)
 
 jogos = [
-    {"id": 1, "jogo": "Ori and the blind florest"},
-    {"id": 2, "jogo": "Avakin life"},
-    {"id": 3, "jogo": "Roblox"},
-    {"id": 4, "jogo": "Animal Jam"},
+    {"id": 1, "titulo": "Ori and the blind florest", "plataforma": "steam"},
+    {"id": 2, "titulo": "Avakin life", "plataforma": "mobile"},
+    {"id": 3, "titulo": "Roblox", "plataforma": "pc e mobile"},
+    {"id": 4, "titulo": "Animal Jam", "plataforma": "pc e mobile"},
     
 ]
 
